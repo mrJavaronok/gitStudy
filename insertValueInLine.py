@@ -15,7 +15,12 @@ IP address: 10.128.52.62
 MAC address: AB-00-CA-46-GB 
 Domane name: mail.ru    
 
-///
+///Метод2
 text = 'IP address: {}\nMAC address: {}\nDomane name: {}'.format(address, mac, doman)
+print(text)
+
+///Метод1
+listS = ['Alex', 'Women', 26]
+text = 'Hello: {}, Your gender: {}, Age: {}'.format(*listS)
 print(text)
 '''
